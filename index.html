@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="Watermark">
+        <div class="overlayName">Rama Prototype Test</div>
+    </div>
+
+    <div class="clock">
+        <!-- Hours -->
+        <div class="digit-container">
+            <div class="digit-wrapper">
+                <div class="number-block-container">
+                    <div class="number-block" id="hourPuluhan">
+                        <div class="number-strip" id="hourPuluhanStrip"></div>
+                    </div>
+                    <div class="digit-mask"></div>
+                </div>
+                <div class="number-block-container">
+                    <div class="number-block" id="hourSatuan">
+                        <div class="number-strip" id="hourSatuanStrip"></div>
+                    </div>
+                    <div class="digit-mask"></div>
+                </div>
+                <div class="digit-overlay"></div>
+            </div>
+        </div>
+
+        <span>:</span>
+
+        <!-- Minutes -->
+        <div class="digit-container">
+            <div class="digit-wrapper">
+                <div class="number-block-container">
+                    <div class="number-block" id="minutePuluhan">
+                        <div class="number-strip" id="minutePuluhanStrip"></div>
+                    </div>
+                    <div class="digit-mask"></div>
+                </div>
+                <div class="number-block-container">
+                    <div class="number-block" id="minuteSatuan">
+                        <div class="number-strip" id="minuteSatuanStrip"></div>
+                    </div>
+                    <div class="digit-mask"></div>
+                </div>
+                <div class="digit-overlay"></div>
+            </div>
+        </div>
+
+        <span>:</span>
+
+        <!-- Seconds -->
+        <div class="digit-container">
+            <div class="digit-wrapper">
+                <div class="number-block-container">
+                    <div class="number-block" id="secondsPuluhan">
+                        <div class="number-strip" id="secondsPuluhanStrip"></div>
+                    </div>
+                    <div class="digit-mask"></div>
+                </div>
+                <div class="number-block-container">
+                    <div class="number-block" id="secondsSatuan">
+                        <div class="number-strip" id="secondsSatuanStrip"></div>
+                    </div>
+                    <div class="digit-mask"></div>
+                </div>
+                <div class="digit-overlay"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
